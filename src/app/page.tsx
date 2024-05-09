@@ -8,17 +8,11 @@ export default function Index() {
     <main className="flex h-screen w-full box-border flex-col overflow-y-auto py-24 px-8">
       <div className="w-full max-w-3xl my-0 mx-auto">
         <p className="mb-6">
-          Hi😎~ I&apos;m Vesper. I&apos;m a Front-End engineer, sometime i wirte
-          backend by node.js, and I write a little bit about programming and
-          life. I hope you enjoy your stay.
+          Hey 😁, 您好，我的朋友，我是 Dev | Zhuxs . 这里是我向世界发声的位置，您可在此了解一段从未听闻的故事.
+          What kind of life do you want to live? 你想活出怎样的人生？
         </p>
         <p className="mb-6">
-          Actually, I only have a high school degree because i started a
-          business in college and did not concentrate on my studies, which
-          resulted in my failure to graduate. I started to learn programming in
-          2016, and I have been working as a front-end engineer since 2017. I
-          have been working in the field of front-end development for more than
-          6 years.
+          一些的我的思考、主张、决策框架、技术栈就此展开
         </p>
       </div>
       <div className="w-full max-w-3xl my-0 mx-auto">
@@ -26,15 +20,15 @@ export default function Index() {
           className="mb-4 mt-8 font-semibold cursor-pointer text-lg hover:underline text-gray-900 underline-offset-4"
           href="/writing"
         >
-          Writing
+          文章
         </Link>
         <div className="text-sm">
           <div className="grid grid-cols-6 py-2 mt-4 mb-1 font-medium text-gray-500 border-b border-gray-200">
-            <span className="col-span-1 text-left md:grid">Year</span>
+            <span className="col-span-1 text-left md:grid">发布年份</span>
             <span className="col-span-5 md:col-span-5">
               <span className="grid grid-cols-4 items-center md:grid-cols-8">
-                <span className="col-span-1 text-left">Date</span>
-                <span className="col-span-3 md:col-span-6">Title</span>
+                <span className="col-span-1 text-left">日期</span>
+                <span className="col-span-3 md:col-span-6">内容</span>
               </span>
             </span>
           </div>

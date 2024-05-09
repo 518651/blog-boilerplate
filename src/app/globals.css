@@ -34,6 +34,27 @@
  
     --radius: 0.5rem;
   }
+
+  ::selection {
+    @apply bg-black text-white;
+  }
+
+  html,
+  body {
+    @apply bg-white;
+  }
+
+  html {
+    @apply overflow-hidden scroll-smooth antialiased;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply font-sans text-base text-gray-900;
+  }
+
+  
  
   .dark {
     --background: 222.2 84% 4.9%;

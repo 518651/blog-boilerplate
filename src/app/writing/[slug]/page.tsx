@@ -19,7 +19,7 @@ export default function Writing({ params }: { params: { slug: string } }) {
                   ? "bg-black text-white"
                   : "hover:bg-gray-200";
               const commonClasses =
-                "flex flex-col gap-1 transition-colors duration-300 hover:bg-gray-200 rounded-lg p-2";
+                "flex flex-col gap-1 transition-colors duration-300 hover:bg-opacity-80 rounded-lg p-2";
               return (
                 <Link
                   key={navItem.name}
