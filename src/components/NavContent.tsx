@@ -91,7 +91,7 @@ export default function NavContent() {
           </Avatar>
           <div>
             <h1 className="font-semibold tracking-tight">Zhuxs.</h1>
-            <p className="text-gray-600">Vercel Front-End Engineer</p>
+            <p className="text-gray-600">Vercel前端工程师（Doge）</p>
           </div>
         </Link>
         <nav className="flex flex-col gap-1">
